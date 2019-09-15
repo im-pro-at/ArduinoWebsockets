@@ -12,7 +12,7 @@
 
 namespace websockets {
     typedef std::string WSString;
-    typedef String WSInterfaceString;
+    typedef std::string WSInterfaceString;
 
     namespace internals {
         WSString fromInterfaceString(const WSInterfaceString& str);

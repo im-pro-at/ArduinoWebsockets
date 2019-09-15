@@ -2,16 +2,16 @@
 
 namespace websockets { namespace internals {
     WSString fromInterfaceString(const WSInterfaceString& str) {
-        return str.c_str();
+        return str;
     }
     WSString fromInterfaceString(const WSInterfaceString&& str) {
-        return str.c_str();
+        return str;
     }
 
     WSInterfaceString fromInternalString(const WSString& str) {
-        return str.c_str();
+        return str;
     }
     WSInterfaceString fromInternalString(const WSString&& str) {
-        return str.c_str();
+        return str;
     }
 }}
